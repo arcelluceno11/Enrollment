@@ -1,12 +1,19 @@
 <template>
   <div>
     <div id="wrapper" style="height: 100vh">
-      <div id="content-wrapper" class="d-flex flex-column">
+      <div
+        id="content-wrapper"
+        class="d-flex flex-column"
+        style="
+          background-image: url('https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80');
+          background-size: cover;
+        "
+      >
         <div class="container col-xl-10 col-xxl-8 px-4 py-5">
           <div class="row align-items-center g-lg-5 py-5">
             <div class="col-lg-7 text-center text-lg-start">
-              <h1 class="display-4 fw-bold lh-1 mb-3">Welcome</h1>
-              <p class="col-lg-10 fs-4">
+              <h1 class="display-4 fw-bold lh-1 mb-3 text-dark">Welcome</h1>
+              <p class="col-lg-10 fs-4 text-dark">
                 “Education is the passport to the future, for tomorrow belongs
                 to those who prepare for it today.” —Malcolm X
               </p>

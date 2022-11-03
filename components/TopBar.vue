@@ -1,13 +1,6 @@
 <template>
   <nav
-    class="
-      navbar navbar-light navbar-expand
-      bg-white
-      shadow
-      mb-4
-      topbar
-      static-top
-    "
+    class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top"
   >
     <div class="container-fluid">
       <button
@@ -26,10 +19,10 @@
               data-bs-toggle="dropdown"
               href="#"
               ><span class="d-none d-lg-inline me-2 text-gray-600 small"
-                >Valerie Luna</span
+                >Arcel Luceno</span
               ><img
                 class="border rounded-circle img-profile"
-                src="avatars/avatar1.jpeg"
+                src="https://scontent.fceb3-1.fna.fbcdn.net/v/t1.6435-9/160261895_3920129788080738_6474459771979232587_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHdRebv3gZlq2Baap9hofhSB2SL-QB7SSUHZIv5AHtJJWF-fEIF30uvUEGl4DgOfz-AZoiyTrUdHIp4caDmby_7&_nc_ohc=CrdKaVnu1MwAX-dCfQV&tn=DWO7zfUHAIUicRxc&_nc_ht=scontent.fceb3-1.fna&oh=00_AfDS4TytRnULt9cmYo_U5Lf2VfujKrHTi0w7j_HEuTMQSg&oe=638B2DE6"
             /></a>
             <div
               class="dropdown-menu shadow dropdown-menu-end animated--grow-in"
@@ -41,11 +34,11 @@
               <div class="dropdown-divider"></div>
               <NuxtLink to="/">
                 <a class="dropdown-item" href="#"
-                ><i
-                  class="fas fa-sign-out-alt fa-sm fa-fw me-2 text-gray-400"
-                ></i
-                >Logout</a
-              >
+                  ><i
+                    class="fas fa-sign-out-alt fa-sm fa-fw me-2 text-gray-400"
+                  ></i
+                  >Logout</a
+                >
               </NuxtLink>
             </div>
           </div>

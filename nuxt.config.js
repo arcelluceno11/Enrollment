@@ -11,22 +11,31 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     script: [
       {
-        src: "/js/bootstrap.min.js",
-        type: "text/javascript",
-        body: true
+        src: '/js/bootstrap.min.js',
+        type: 'text/javascript',
+        body: true,
       },
       {
-        src: "/js/themes.js",
-        type: "text/javascript",
-        body: true
-      }
-      ,
+        src: '/js/themes.js',
+        type: 'text/javascript',
+        body: true,
+      },
       {
-        src: "https://code.jquery.com/jquery-3.5.1.js",
-        type: "text/javascript",
-        body: true
-      }
-     ],
+        src: 'https://code.jquery.com/jquery-3.5.1.js',
+        type: 'text/javascript',
+        body: true,
+      },
+      {
+        src: 'https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js',
+        type: 'text/javascript',
+        body: true,
+      },
+      {
+        src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js',
+        type: 'text/javascript',
+        body: true,
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -57,6 +66,7 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    'bootstrap-vue/nuxt',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
