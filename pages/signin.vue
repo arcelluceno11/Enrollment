@@ -11,7 +11,7 @@
     >
       <div class="text-center">
         <main class="mt-5 form-signin">
-          <form>
+          <form class="pt-5 pb-5 ps-3 pe-3 border rounded-3 bg-light">
             <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
             <div class="form-floating">
