@@ -1,3 +1,4 @@
+<!-- eslint-disable max-len -->
 <!-- eslint-disable vue/first-attribute-linebreak -->
 <template>
   <nav

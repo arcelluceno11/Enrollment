@@ -13,27 +13,12 @@ export default {
       {
         src: '/js/bootstrap.min.js',
         type: 'text/javascript',
-        body: true,
+        body: false,
       },
       {
         src: '/js/themes.js',
         type: 'text/javascript',
-        body: true,
-      },
-      {
-        src: 'https://code.jquery.com/jquery-3.5.1.js',
-        type: 'text/javascript',
-        body: true,
-      },
-      {
-        src: 'https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js',
-        type: 'text/javascript',
-        body: true,
-      },
-      {
-        src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js',
-        type: 'text/javascript',
-        body: true,
+        body: false,
       },
     ],
   },
@@ -72,7 +57,7 @@ export default {
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: '/',
+    baseURL: 'http://localhost:8080',
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa

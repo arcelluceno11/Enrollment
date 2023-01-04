@@ -1,3 +1,4 @@
+<!-- eslint-disable max-len -->
 <!-- eslint-disable vue/first-attribute-linebreak -->
 <template>
   <div id="wrapper" style="height: 100vh">
